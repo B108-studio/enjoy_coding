@@ -2,7 +2,16 @@ package somefun;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
-
+/**
+* 计算“生日数”程序 
+* 计算公元1年到100万年出生的人的生日数，分别为1～9，统计分类
+* 假设某人生日为1999.12.15，把出生年月日拆成个位数，一共得到8个数字
+* 把这些数相加，1+9+9+9+1+2+1+5=46
+* 再把46拆成4和6，4+6=10
+* 再把10拆分成1和0，1+0=1
+* 1就是这个人的生日数，将1记录下来
+* 打印出这一百万年中生日数为1～9的人分别有多少
+*/
 public class BrithAnalysis {
 	private static int runDays = 0;
 	
