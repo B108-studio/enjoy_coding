@@ -33,7 +33,7 @@ public class BirthSort {
 			}
 		}
 		System.out.printf("在公元%d年1月1日到公元%d年12月31日的%d天里，出生数的分布为：\n",startYear,endYear,runDays);
-		int signNum = 0;
+		long signNum = 0L;
 		for(int i=0;i<results.length;i++ ){
 			System.out.printf("出生数%d: ",i+1);
 			System.out.printf("%d\n\n",results[i]);
